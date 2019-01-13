@@ -15,4 +15,9 @@ extension XCTestCase {
     return UIApplication.shared.delegate as! AppDelegate
   }
 
+  func wait(timeout: TimeInterval) {
+    let expectation = XCTestExpectation(description: "Waiting for \(timeout) seconds")
+    XCTWaiter().wait(for: [expectation], timeout: timeout)
+  }
+
 }
