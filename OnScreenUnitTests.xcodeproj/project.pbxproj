@@ -13,6 +13,7 @@
 		9C040DEF21EAC40000C998EF /* UIColor+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C040DED21EAC3FF00C998EF /* UIColor+Random.swift */; };
 		9C040DF021EAC40000C998EF /* RandomColorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C040DEE21EAC40000C998EF /* RandomColorsViewController.swift */; };
 		9C040DF221EAC42E00C998EF /* RandomColorsViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C040DF121EAC42E00C998EF /* RandomColorsViewControllerTests.swift */; };
+		9C040DF621EAC70C00C998EF /* ViewTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C040DF521EAC70B00C998EF /* ViewTestCase.swift */; };
 		9CC3A06C21E9648A00B79A9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC3A06B21E9648A00B79A9A /* AppDelegate.swift */; };
 		9CC3A06E21E9648A00B79A9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC3A06D21E9648A00B79A9A /* ViewController.swift */; };
 		9CC3A07121E9648A00B79A9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CC3A06F21E9648A00B79A9A /* Main.storyboard */; };
@@ -42,6 +43,7 @@
 		9C040DED21EAC3FF00C998EF /* UIColor+Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Random.swift"; sourceTree = "<group>"; };
 		9C040DEE21EAC40000C998EF /* RandomColorsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomColorsViewController.swift; sourceTree = "<group>"; };
 		9C040DF121EAC42E00C998EF /* RandomColorsViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomColorsViewControllerTests.swift; sourceTree = "<group>"; };
+		9C040DF521EAC70B00C998EF /* ViewTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTestCase.swift; sourceTree = "<group>"; };
 		9CC3A06821E9648A00B79A9A /* OnScreenUnitTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnScreenUnitTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CC3A06B21E9648A00B79A9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CC3A06D21E9648A00B79A9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 				9C040DE921EAC1BD00C998EF /* XCTestCase+Extensions.swift */,
 				9C040DEB21EAC2AA00C998EF /* ViewControllerTestCase.swift */,
 				9C040DF121EAC42E00C998EF /* RandomColorsViewControllerTests.swift */,
+				9C040DF521EAC70B00C998EF /* ViewTestCase.swift */,
 				9CC3A08221E9648C00B79A9A /* Info.plist */,
 			);
 			path = OnScreenUnitTestsTests;
@@ -315,6 +318,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C040DF621EAC70C00C998EF /* ViewTestCase.swift in Sources */,
 				9C040DEA21EAC1BD00C998EF /* XCTestCase+Extensions.swift in Sources */,
 				9C040DF221EAC42E00C998EF /* RandomColorsViewControllerTests.swift in Sources */,
 				9C040DEC21EAC2AA00C998EF /* ViewControllerTestCase.swift in Sources */,
