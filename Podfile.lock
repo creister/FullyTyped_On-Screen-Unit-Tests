@@ -1,0 +1,16 @@
+PODS:
+  - SnapshotTesting (1.1.0)
+
+DEPENDENCIES:
+  - SnapshotTesting (~> 1.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SnapshotTesting
+
+SPEC CHECKSUMS:
+  SnapshotTesting: 8ed6a4dceee63f59a60e1bc86f9adbba54eb9287
+
+PODFILE CHECKSUM: d263003ef72f3a9a524181818baf649eab0a43a0
+
+COCOAPODS: 1.5.3
